@@ -1,5 +1,8 @@
 # Welcome to Spurs3D
 
+## Demo
+[Click Here](https://vaibhav-bhasin-anarock.github.io/spurs3d/)
+
 ## Setup
 To setup and run the project - 
 
@@ -11,7 +14,9 @@ To setup and run the project -
 
  - Easy Setup and integration 
  - Intuitive 2D drawing using HTML Canvas with **grid snapping and line highlighting**
+ - Ability to undo(Button + Keyboard shortcut) for 2D drawing screen
  - Instant 3D render with minimal web overhead and **no frame drops**
+ - Intuitive 3D controls to zoom and pan around the 3D Room
 
 ## Tech Used
 
