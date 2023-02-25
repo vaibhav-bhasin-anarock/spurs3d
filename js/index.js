@@ -290,7 +290,7 @@ function setup3dView() {
   }
 
   // Create floor
-  const floorTexture = new THREE.TextureLoader().load("../textures/hardwood.png");
+  const floorTexture = new THREE.TextureLoader().load("textures/hardwood.png");
   floorTexture.wrapS = THREE.RepeatWrapping;
   floorTexture.wrapT = THREE.RepeatWrapping;
   floorTexture.repeat.set(1, 1);
