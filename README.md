@@ -12,7 +12,7 @@ To setup and run the project -
 
 ## Features
 
- - Easy Setup and integration 
+ - Easy Setup and integration - Uses HTML Canvas, threeJS for most of the heavy lifting in the project therefore requiring minimal setup and time to first run.
  - Intuitive 2D drawing using HTML Canvas with **grid snapping and line highlighting**
  - Ability to undo(Button + Keyboard shortcut) for 2D drawing screen
  - Instant 3D render with minimal web overhead and **no frame drops**
