@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spurs3D</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#draw">Draw</a>
+            </li>
+            <li class="nav-item">
+                <a id="viewTabBtn" class="nav-link" data-toggle="tab" href="#view">View</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="draw" class="tab-pane active">
+                <button id="undoBtn">Undo</button>
+                <button id="exportBtn">Export</button>
+                <canvas id="floorplanner-canvas"></canvas>
+            </div>
+            <div id="view" class="tab-pane">
+            </div>
+        </div>
+    </div>
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+    {
+        "imports": {
+        "three": "https://unpkg.com/three@0.150.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.150.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
